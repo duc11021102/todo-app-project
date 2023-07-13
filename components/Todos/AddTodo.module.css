@@ -1,0 +1,31 @@
+.input {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  font-size: 13px;
+  font-family:  'Poppins', sans-serif;
+}
+.input:focus,
+.input.active {
+  border: 2px solid #3c87ff;
+}
+
+.btnAdd {
+    background: linear-gradient(100deg, #4AB1FF, #2D5CFE);
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: white;
+    padding: 7px 13px;
+    transition: transform 0.25s ease;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+.btnAdd:hover {
+    background: linear-gradient(135deg, #1798fb 0%, #2D5CFE 100%);
+}

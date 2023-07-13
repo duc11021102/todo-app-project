@@ -1,0 +1,30 @@
+.todo {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.todo span {
+  margin-left: 10px;
+}
+
+.checkbox {
+  position: relative;
+  width: 1.5em;
+  height: 1.5em;
+  top: 4px
+}
+.btnDelete {
+  background: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);
+  font-size: 13px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: white;
+  padding: 7px 13px;
+  transition: transform 0.25s ease;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.btnDelete:hover {
+  background: linear-gradient(to left, #eb3941, #f15e64, #e14e53, #e2373f);
+}
